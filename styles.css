@@ -3,7 +3,8 @@ body {
 }
 
 .game-container {
-
+  margin-top: 50px;
+  text-align: center;
 }
 
 .game-board {
@@ -39,5 +40,5 @@ body {
 }
 
 .game-score#score {
-  
+
 }

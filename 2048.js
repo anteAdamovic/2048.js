@@ -22,11 +22,13 @@ var _2048 = {
         div.className = 'game-board-block ' + x + '-' + y;
 
         container.appendChild(div);
-        console.log('Appending child ', div);
       }
     }
   },
 
+  /*
+    Add 'value' to the current score and output it in score element
+  */
   addScore: function(value) {
 
   },
@@ -47,16 +49,18 @@ var _2048 = {
 
   },
 
-  startGame: function() {
+  /*
+    Start a new game
+    - clear all game blocks
+    - reset score to 0
+    - generate 2 random elements
+  */
+  startNewGame: function() {
 
   },
 
   generateRandomElement: function() {
 
-  },
-
-  restart: function() {
-    
   }
 
 };
