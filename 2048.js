@@ -27,24 +27,31 @@ var _2048 = {
   },
 
   /*
-    Add 'value' to the current score and output it in score element
+    1. Read current score value from the 'score' element
+    2. Add 'value' to the current score
+    3. Output current score value in 'score' element
+    <input id='score' type='text' value='0'>
   */
   addScore: function(value) {
 
   },
 
+  // Called when 'Up' button is clicked
   moveUp: function() {
 
   },
 
+  // Called when 'Down' button is clicked
   moveDown: function() {
 
   },
 
+  // Called when '<' button is clicked
   moveLeft: function() {
 
   },
 
+  // Called when '>' button is clicked
   moveRight: function() {
 
   },
@@ -59,6 +66,9 @@ var _2048 = {
 
   },
 
+  /*
+    Should generate a new element (2) at random postion
+  */
   generateRandomElement: function() {
 
   }
